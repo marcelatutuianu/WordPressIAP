@@ -1,0 +1,8 @@
+echo "# nume_repository" >> README.md
+git init
+git add README.md
+git add --all (!!!!!!!!!!!!!!!!!!!!!!adaugat la codul copiat!!!!!!!!!!!!!!!!!!!!!)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/costea-radu/nume_repository.git
+git push -u origin main
